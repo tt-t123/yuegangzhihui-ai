@@ -1,0 +1,93 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+### Project: 构建产物与本地运行状态（可再生成，不入库） ###
+**/target/
+**/node_modules/
+**/dist/
+**/.vite/
+**/test-results/
+**/logs/
+**/*.log
+.local/
+.idea/
+*.iml
+deploy.zip
+
+### Project: 密钥与环境变量（禁止入库，公开仓库会泄露） ###
+.env
+.env.yaml
+**/.env
+**/.env.*
+!**/.env.example
+**/secrets/
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+### Project: 含明文口令/密钥的本地运维脚本（仅本机使用） ###
+askpass.cmd
+config_deepseek.py
+fix_mysql.py
+fix_mysql_pwd.py
+find_passwords.py
+init_databases.py
+show_tables.py
+check_redis.py
+start_services.py
+start-*.ps1
+start-*.cmd
+gen_scripts.py
+gen_scripts_v2.py
+gen_scripts_v3.py
+test_register.py
+test-register.ps1
+test_gateway_login.py
+vm_check.py
+vm_cmd.sh
+vm_es.sh
+vm_start_es.sh
+
+### Project: 本地临时/输出目录 ###
+tmp/
+output/
+backup/
